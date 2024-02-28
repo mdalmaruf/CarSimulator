@@ -3,7 +3,7 @@
 ## Overview
 This repo contains a Python-based car simulation that utilizes the Tkinter library to create a graphical user interface (GUI). The simulation features a car moving along a road and detecting objects placed at random intervals. The primary focus is to demonstrate object detection by a moving car and logging the detection time as well as the duration it took to detect each object.
 
-![Car Simulator Output](image/CarSimulator.JPG)
+![Car Simulator Output](CarSimulator.JPG)
 
 ## Technical Components
 
