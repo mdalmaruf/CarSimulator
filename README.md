@@ -5,17 +5,6 @@ This repo contains a Python-based car simulation that utilizes the Tkinter libra
 
 ![Car Simulator Output](CarSimulatorResult.JPG)
 
-## Technical Components
-
-### Tkinter GUI
-Tkinter is the standard GUI library for Python. It is lightweight and relatively straightforward to use for simple GUI applications. In this simulation, Tkinter is used to create the window, canvas, buttons, and text logs.
-
-### Canvas
-The canvas is a widget that allows for drawing graphics, such as lines, shapes, and images. In our simulation, the canvas serves as the environment where the road, car, and objects are drawn and animated.
-
-### Car Movement
-The car is represented by a rectangle shape that moves across the canvas to simulate forward motion. The movement is controlled by repeatedly updating the car's position on the canvas.
-
 ### Object Placement and Detection
 Objects are represented by oval shapes placed at random intervals along the road. The car detects these objects when it moves past them. Detection is determined by the overlapping coordinates of the car and objects.
 
